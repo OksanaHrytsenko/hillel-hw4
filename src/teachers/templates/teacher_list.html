@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html >
+<body>
+<h1>Teachers</h1>
+    <ul>
+        {% for teacher in teachers %}
+        <li>{{teacher.first_name}} {{teacher.last_name}} {{teacher.email}} {{teacher.grade}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
