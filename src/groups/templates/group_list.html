@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html >
+<body>
+<h1>Groups</h1>
+    <ul>
+        {% for group in groups %}
+        <li>{{group.group_name}} {{group.teacher_name}}  {{group.grade}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
